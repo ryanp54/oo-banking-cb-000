@@ -11,7 +11,7 @@ class BankAccount
     self.balance += amount.to_f
   end
   def display_balance
-    "Balance: #{self.balance}"
+    "Your balance is $#{self.balance}."
   end
   def valid?
     self.balance > 0 && self.status == "open"
